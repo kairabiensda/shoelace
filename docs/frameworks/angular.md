@@ -10,6 +10,12 @@ To add Shoelace to your Angular app, install the package from npm.
 npm install @shoelace-style/shoelace
 ```
 
+Import shoelace.js
+
+```jsx
+import '@shoelace-style/shoelace/dist/shoelace.js';
+```
+
 Next, [include a theme](/getting-started/themes) and set the [base path](/getting-started/installation#setting-the-base-path) for icons and other assets. In this example, we'll import the light theme and use the CDN as a base path.
 
 ```jsx
